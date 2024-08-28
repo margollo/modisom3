@@ -1,0 +1,142 @@
+This is TeX, Version 3.14159265 (TeX Live 2017/Debian) (preloaded format=tex 2023.7.18)  11 FEB 2024 22:12
+**manual
+(./manual.tex (../../../doc/gapmacro.tex
+(/usr/share/texlive/texmf-dist/tex/plain/amsfonts/amssym.tex
+(/usr/share/texlive/texmf-dist/tex/plain/amsfonts/amssym.def
+\msafam=\fam8
+\msbfam=\fam9
+\eufmfam=\fam10
+))
+Running TeX
+\pagewidth=\dimen16
+\pageheight=\dimen17
+\colwidth=\dimen18
+\partialpage=\box16
+\origvsize=\dimen19
+\manindent=\dimen20
+\smallmanindent=\dimen21
+\itfam=\fam11
+\slfam=\fam12
+\bffam=\fam13
+\ttfam=\fam14
+\msbfam=\fam15
+\ttindent=\dimen22
+\labelout=\write0
+\indexout=\write1
+\secindout=\write2
+\tocout=\write3
+\citeout=\write4
+\ans=\write5
+\exampleout=\write6
+\labelin=\read0
+\indexin=\read1
+\tocin=\read2
+\citein=\read3
+\secno=\count26
+\subsecno=\count27
+\exno=\count28
+\indentno=\count29
+\chapnum=\count30
+\ortoks=\toks12
+\bibindent=\dimen23
+) (../../../doc/ref/manual.lab) (../VERSION) [1]
+\makelabel{ModIsom:Contents}{{\setbox 0=\hbox {1}\vrule width 0pt height\ht 0}}
+
+Chapter `Contents' .
+(./manual.toc) [2.1
+\chapcontents {\tocstrut }{Contents}{2}
+] (./manual.lab)
+\openout3 = `manual.toc'.
+
+\openout0 = `manual.lab'.
+
+\openout1 = `manual.idx'.
+
+\openout2 = `manual.six'.
+
+\openout4 = `manual.aux'.
+
+ (./intro.tex
+Chapter `Introduction' .
+[3.1]) (./tables.tex [4.1]
+Chapter `Tables' .
+[5.2]
+\openout6 = `manual.example-2.tst'.
+
+ [6.2] [7.2] [8.2]) (./autiso.tex [9.2]
+Chapter `Automorphism groups and Canonical Forms' .
+\openout6 = `manual.example-3.tst'.
+
+[10.3]) (./modisom.tex [11.3]
+Chapter `The modular isomorphism problem' .
+[12.4]
+\openout6 = `manual.example-4.tst'.
+
+ [13.4] [14.4] [15.4] [16.4] [17.4] [18.4]
+Overfull \hbox (24.94179pt too wide) in paragraph at lines 445--451
+\tenrm Denoting by $\tenit D[]\tenr (\tenit G\tenr )$ \tenrm the $\tenit i$\ten
+rm -th mem-ber of the Jen-nings se-ries, this func-tion re-turns \tentt GroupIn
+fo \tenrm for the quo-tients $\tenit D[]\tenr (\tenit G\tenr )\teni =\tenit D[]
+\tenr (\tenit G\tenr )$\tenrm ,|
+
+\hbox(7.5+2.5)x468.0, glue set - 1.0
+.\tenrm D
+.\tenrm e
+.\tenrm n
+.\tenrm o
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (50.63895pt too wide) in paragraph at lines 479--488
+\tenrm If $\tenit p$ \tenrm is odd and $\tenit G[]$ \tenrm is cyclic this re-tu
+rns sev-eral in-vari-ants con-tained in [][GL-dRS22] [][GL-dRS23a]. Namely, $\t
+enit D[]\tenr (\tenit C[]\tenr (\tenit G[]\tenr ))\teni =\tenit D[]\tenr (\teni
+t C[]\tenr (\tenit G[]\tenr ))$|
+
+\hbox(7.5+2.5)x468.0, glue set - 1.0
+.\tenrm I
+.\tenrm f
+.\glue 2.5 plus 1.49998 minus 0.59998
+.\mathon
+.\tenit p
+.etc.
+
+[19.4]
+Overfull \hbox (16.53018pt too wide) in paragraph at lines 520--526
+[]\tenrm [HS06](Section 2.2) and the di-men-sion of the first Hochschild co-ho-
+mol-ogy group which equals $[][] [][]\tenr (\tenit C[]\tenr (\tenit g\tenr )\te
+ni =\tenr ^^H(\tenit C[]\tenr (\tenit g\tenr ))$|
+
+\hbox(7.5+3.96036)x468.0, glue set - 1.0
+.\write4{\bs citation{HS06}}
+.\tenrm [
+.\tenrm H
+.\tenrm S
+.\tenrm 0
+.etc.
+
+) (./nilquo.tex [20.4]
+Chapter `Nilpotent Quotients' .
+\openout6 = `manual.example-5.tst'.
+
+) (./relfree.tex [21.5]
+Chapter `Relatively free Algebras' .
+\openout6 = `manual.example-6.tst'.
+
+) [22.6]
+Chapter `Bibliography' .
+(./manual.bbl [23.7]) [24.7]
+Chapter `Index' .
+(./manual.ind) [25.8] [26.8]
+##
+## Citations for BibTeX written on manual.aux.
+## Index entries for makeindex written on manual.idx.
+## Section index entries written on manual.six.
+## Label definitions written on manual.lab.
+## Table of contents written on manual.toc.
+## Examples written to manual.example-XX.tst.
+## Labels have changed, run again. (Or they were multiply defined.)
+##
+ )
+Output written on manual.dvi (26 pages, 76148 bytes).

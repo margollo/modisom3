@@ -1,0 +1,8 @@
+\contentsline {chapter}{\numberline {1}\leavevmode {\color {Chapter }Introduction}}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}\leavevmode {\color {Chapter }Associative algebras and nilpotency}}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}\leavevmode {\color {Chapter }Isomorphisms and Automorphisms}}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}\leavevmode {\color {Chapter }The Modular Isomorphism Problem}}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}\leavevmode {\color {Chapter }A nilpotent quotient algorithm}}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}\leavevmode {\color {Chapter }Kurosh Algebras}}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}\leavevmode {\color {Chapter }Test section}}{5}{section.1.6}
+\contentsline {chapter}{References}{6}{chapter*.2}

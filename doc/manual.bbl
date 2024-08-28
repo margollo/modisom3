@@ -1,0 +1,170 @@
+\begin{thebibliography}{GLdRS23b}
+
+\bibitem[Bag92]{Bag92}
+C.~Bagi\'{n}ski.
+\newblock Modular group algebras of {$2$}-groups of maximal class.
+\newblock {\em Comm. Algebra}, 20(5):1229--1241, 1992.
+
+\bibitem[Bag99]{Bag99}
+C.~Bagi\'{n}ski.
+\newblock On the isomorphism problem for modular group algebras of elementary
+  abelian-by-cyclic {$p$}-groups.
+\newblock {\em Colloq. Math.}, 82(1):125--136, 1999.
+
+\bibitem[BC88]{BC88}
+C.~Bagi\'{n}ski and A.~Caranti.
+\newblock The modular group algebras of {$p$}-groups of maximal class.
+\newblock {\em Canad. J. Math.}, 40(6):1422--1435, 1988.
+
+\bibitem[BdR21]{BdR21}
+O.~Broche and \'{A}. del R\'{\i}o.
+\newblock The modular isomorphism problem for two generated groups of class
+  two.
+\newblock {\em Indian J. Pure Appl. Math.}, 52(3):721--728, 2021.
+
+\bibitem[BK07]{BK07}
+C.~Bagi\'{n}ski and A.~Konovalov.
+\newblock The modular isomorphism problem for finite {$p$}-groups with a cyclic
+  subgroup of index {$p^2$}.
+\newblock In {\em Groups {S}t. {A}ndrews 2005. {V}ol. 1}, volume 339 of {\em
+  London Math. Soc. Lecture Note Ser.}, pages 186--193. Cambridge Univ. Press,
+  Cambridge, 2007.
+
+\bibitem[BKRW99]{BKRW99}
+Frauke~M. Bleher, Wolfgang Kimmerle, Klaus~W. Roggenkamp, and Martin Wursthorn.
+\newblock Computational aspects of the isomorphism problem.
+\newblock In {\em Algorithmic algebra and number theory (Heidelberg, 1997)},
+  pages 313--329. Springer, Berlin, 1999.
+
+\bibitem[Dre89]{Dre89}
+V.~Drensky.
+\newblock The isomorphism problem for modular group algebras of groups with
+  large centres.
+\newblock In {\em Representation theory, group rings, and coding theory},
+  volume~93 of {\em Contemp. Math.}, pages 145--153. Amer. Math. Soc.,
+  Providence, RI, 1989.
+
+\bibitem[Eic08]{Eic07}
+Bettina Eick.
+\newblock Computing automorphism groups and testing isomorphisms for modular
+  group algebras.
+\newblock {\em J. Algebra}, 320(11):3895--3910, 2008.
+
+\bibitem[Eic11]{Eic11}
+Bettina Eick.
+\newblock Computing nilpotent quotients of associative algebras and algebras
+  satisfying a polynomial identity.
+\newblock {\em Internat. J. Algebra Comput.}, 21(8):1339--1355, 2011.
+
+\bibitem[EK11]{EKo11}
+Bettina Eick and Alexander Konovalov.
+\newblock The modular isomorphism problem for the groups of order 512.
+\newblock In {\em Groups {S}t {A}ndrews 2009 in {B}ath. {V}olume 2}, volume 388
+  of {\em London Math. Soc. Lecture Note Ser.}, pages 375--383. Cambridge Univ.
+  Press, Cambridge, 2011.
+
+\bibitem[GL24]{GL24}
+D.~Garc\'{\i}a-Lucas.
+\newblock The modular isomorphism problem and abelian direct factors.
+\newblock {\em Med. J. of Math.}, 21, article number 18, 2024
+
+\bibitem[GLM24]{GLM24}
+D.~Garc\'{\i}a-Lucas and L.~Margolis
+\newblock On the modular isomorphism problem for groups of nilpotency class 2 with cyclic center
+\newblock {\em Forum Math.}, 2024
+
+\bibitem[GLdRS22]{GLdRS22}
+D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
+\newblock On group invariants determined by modular group algebras: Even versus
+  odd characteristic.
+\newblock {\em Alg. Rep. Th.}, pages 1--25, 2022.
+\newblock https://doi.org/10.1007/s10468-022-10182-x.
+
+\bibitem[GLdRS23a]{GLdR23}
+D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
+\newblock On the modular isomorphism problem for 2-generated groups with cyclic
+  derived subgroup.
+\newblock arXiv:2310.02627, 2023.
+
+\bibitem[GLdRS23b]{GLM23}
+D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
+\newblock On the modular isomorphism problem for groups of nilpotency class 2
+  with cyclic center.
+\newblock {\em Forum Mat.}, pages 1--19, 2023.
+\newblock to appear, arXiv:2306.06957.
+
+\bibitem[GLMdR22]{GLMdR22}
+D.~Garc\'{\i}a-Lucas, L.~Margolis, and \'{A}. del R\'{\i}o.
+\newblock Non-isomorphic 2-groups with isomorphic modular group algebras.
+\newblock {\em J. Reine Angew. Math.}, 783:269--274, 2022.
+
+\bibitem[Her07]{Her07}
+M.~Hertweck.
+\newblock A note on the modular group algebras of odd {$p$}-groups of
+  {$M$}-length three.
+\newblock {\em Publ. Math. Debrecen}, 71(1-2):83--93, 2007.
+
+\bibitem[HS06]{HS06}
+M.~Hertweck and M.~Soriano.
+\newblock On the modular isomorphism problem: groups of order {$2^6$}.
+\newblock In {\em Groups, rings and algebras}, volume 420 of {\em Contemp.
+  Math.}, pages 177--213. Amer. Math. Soc., Providence, RI, 2006.
+
+\bibitem[Jen41]{Jen41}
+S.~A. Jennings.
+\newblock The structure of the group ring of a {$p$}-group over a modular
+  field.
+\newblock {\em Trans. Amer. Math. Soc.}, 50:175--185, 1941.
+
+\bibitem[MM22]{MM22}
+L.~Margolis and T.~Moede.
+\newblock {The Modular Isomorphism Problem for small groups -- revisiting
+  Eick's algorithm}.
+\newblock {\em Journal of Computational Algebra}, 1-2:100001, 2022.
+
+\bibitem[MS22]{MS22}
+L.~Margolis and M.~Stanojkovski.
+\newblock On the modular isomorphism problem for groups of class 3 and
+  obelisks.
+\newblock {\em J. Group Theory}, 25(1):163--206, 2022.
+
+\bibitem[MSS23]{MSS23}
+Leo Margolis, Taro Sakurai, and Mima Stanojkovski.
+\newblock Abelian invariants and a reduction theorem for the modular
+  isomorphism problem.
+\newblock {\em J. Algebra}, 636:1--27, 2023.
+
+\bibitem[PS72]{PS72}
+Inder Bir~S. Passi and Sudarshan~K. Sehgal.
+\newblock Isomorphism of modular group algebras.
+\newblock {\em Math. Z.}, 129:65--73, 1972.
+
+\bibitem[RS83]{RS83}
+J.~Ritter and S.~K. Sehgal.
+\newblock Isomorphism of group rings.
+\newblock {\em Arch. Math. (Basel)}, 40(1):32--39, 1983.
+
+\bibitem[RS93]{RS93}
+K.~W. Roggenkamp and L.~L. Scott.
+\newblock Automorphisms and nonabelian cohomology: an algorithm.
+\newblock {\em Linear Algebra Appl.}, 192:355--382, 1993.
+
+\bibitem[San85]{San85}
+R.~Sandling.
+\newblock The isomorphism problem for group rings: a survey.
+\newblock In {\em Orders and their applications ({O}berwolfach, 1984)}, pages
+  256--288. Springer, Berlin, 1985.
+
+\bibitem[San89]{San89}
+R.~Sandling.
+\newblock The modular group algebra of a central-elementary-by-abelian
+  {$p$}-group.
+\newblock {\em Arch. Math. (Basel)}, 52(1):22--27, 1989.
+
+\bibitem[Wur93]{Wur93}
+Martin Wursthorn.
+\newblock Isomorphisms of modular group algebras: an algorithm and its
+  application to groups of order {$2\sp 6$}.
+\newblock {\em J. Symbolic Comput.}, 15(2):211--227, 1993.
+
+\end{thebibliography}

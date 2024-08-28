@@ -1,0 +1,63 @@
+\indexentry {Nilpotent tables@Nilpotent tables|indexit}{5}
+\indexentry {GetEntryTable@`GetEntryTable'}{5}
+\indexentry {MultByTable@`MultByTable'}{6}
+\indexentry {CompareTables@`CompareTables'}{6}
+\indexentry {CheckAssociativity@`CheckAssociativity'}{6}
+\indexentry {CheckCommutativity@`CheckCommutativity'}{6}
+\indexentry {CheckConsistency@`CheckConsistency'}{6}
+\indexentry {Algebras in the GAP sense@Algebras in the GAP sense|indexit}{6}
+\indexentry {AlgebraByTable@`AlgebraByTable'}{6}
+\indexentry {NilpotentTable@`NilpotentTable'}{6}
+\indexentry {NilpotentTableOfRad@`NilpotentTableOfRad'}{6}
+\indexentry {Tables for the Modular Isomorphism Problem@Tables for the Modular Isomorphism Problem|indexit}{7}
+\indexentry {TableOfRadQuotient@`TableOfRadQuotient'}{7}
+\indexentry {ModIsomTable@`ModIsomTable'}{7}
+\indexentry {MIPElementTableToAlgebra@`MIPElementTableToAlgebra'}{9}
+\indexentry {MIPElementAlgebraToTable@`MIPElementAlgebraToTable'}{9}
+\indexentry {Automorphism groups@Automorphism groups|indexit}{10}
+\indexentry {AutGroupOfTable@`AutGroupOfTable'}{10}
+\indexentry {AutGroupOfRad@`AutGroupOfRad'}{10}
+\indexentry {Canonical forms@Canonical forms|indexit}{10}
+\indexentry {CanonicalFormOfTable@`CanonicalFormOfTable'}{10}
+\indexentry {CanonicalFormOfRad@`CanonicalFormOfRad'}{10}
+\indexentry {CanoFormWithAutGroupOfTable@`CanoFormWithAutGroupOfTable'}{10}
+\indexentry {CanoFormWithAutGroupOfRad@`CanoFormWithAutGroupOfRad'}{10}
+\indexentry {Example of canonical form computation@Example of canonical form computation|indexit}{10}
+\indexentry {Computing bins and checking bins@Computing bins and checking bins|indexit}{12}
+\indexentry {BinsByGT@`BinsByGT'}{12}
+\indexentry {MIPSplitGroupsByGroupTheoreticalInvariants @`MIPSplitGroupsByGroupTheoreticalInvariants '}{12}
+\indexentry {MIPSplitGroupsByGroupTheoreticalInvariantsNoCohomology@`MIPSplitGroupsByGroupTheoreticalInvariantsNoCohomology'}{12}
+\indexentry {BinsByGTAllFields@`BinsByGTAllFields'}{13}
+\indexentry {MIPSplitGroupsByGroupTheoreticalInvariantsAllFields@`MIPSplitGroupsByGroupTheoreticalInvariantsAllFields'}{13}
+\indexentry {MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology@`MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology'}{13}
+\indexentry {MIPSplitGroupsByAlgebras@`MIPSplitGroupsByAlgebras'}{13}
+\indexentry {MIPSplitGroupsByAlgebras@`MIPSplitGroupsByAlgebras'}{13}
+\indexentry {MIPBinSplit@`MIPBinSplit'}{13}
+\indexentry {Kernel size@Kernel size|indexit}{18}
+\indexentry {KernelSizePowerMap@`KernelSizePowerMap'}{18}
+\indexentry {The group theoretical invariants@The group theoretical invariants|indexit}{18}
+\indexentry {GroupInfo@`GroupInfo'}{18}
+\indexentry {CenterDerivedInfo@`CenterDerivedInfo'}{19}
+\indexentry {SandlingInfo@`SandlingInfo'}{19}
+\indexentry {JenningsInfo@`JenningsInfo'}{19}
+\indexentry {JenningsDerivedInfo@`JenningsDerivedInfo'}{19}
+\indexentry {BaginskiInfo@`BaginskiInfo'}{19}
+\indexentry {BaginskiCarantiInfo@`BaginskiCarantiInfo'}{19}
+\indexentry {NilpotencyClassInfo@`NilpotencyClassInfo'}{19}
+\indexentry {Theorem41MS22@`Theorem41MS22'}{19}
+\indexentry {CyclicDerivedInfo@`CyclicDerivedInfo'}{19}
+\indexentry {MaximalAbelianDirectFactor@`MaximalAbelianDirectFactor'}{19}
+\indexentry {NormalSubgroupsInfo@`NormalSubgroupsInfo'}{19}
+\indexentry {IsCoveredByTheory@`IsCoveredByTheory'}{20}
+\indexentry {DimensionTwoCohomology@`DimensionTwoCohomology'}{20}
+\indexentry {ConjugacyClassInfo@`ConjugacyClassInfo'}{20}
+\indexentry {SubgroupsInfo@`SubgroupsInfo'}{20}
+\indexentry {Computing nilpotent quotients@Computing nilpotent quotients|indexit}{21}
+\indexentry {NilpotentQuotientOfFpAlgebra@`NilpotentQuotientOfFpAlgebra'}{21}
+\indexentry {Example of nilpotent quotient computation@Example of nilpotent quotient computation|indexit}{21}
+\indexentry {Computing Kurosh Algebras@Computing Kurosh Algebras|indexit}{22}
+\indexentry {KuroshAlgebra@`KuroshAlgebra'}{22}
+\indexentry {ExpandExponentLaw@`ExpandExponentLaw'}{22}
+\indexentry {A Library of Kurosh Algebras@A Library of Kurosh Algebras|indexit}{22}
+\indexentry {KuroshAlgebraByLib@`KuroshAlgebraByLib'}{22}
+\indexentry {Example of accessing the library of Kurosh algebras@Example of accessing the library of Kurosh algebras|indexit}{22}

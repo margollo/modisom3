@@ -1,0 +1,52 @@
+\begin{thebibliography}{GLMdR22}
+
+\bibitem[BKRW99]{BleherKimmerleRoggenkampWursthorn99}
+F.~M. Bleher, W.~Kimmerle, K.~W. Roggenkamp, and M.~Wursthorn.
+\newblock Computational aspects of the isomorphism problem.
+\newblock In {\em Algorithmic algebra and number theory ({H}eidelberg, 1997)},
+  pages 313--329. Springer, Berlin, 1999.
+
+\bibitem[Eic08]{Eick08}
+B.~Eick.
+\newblock Computing automorphism groups and testing isomorphisms for modular
+  group algebras.
+\newblock {\em J. Algebra}, 320(11):3895--3910, 2008.
+
+\bibitem[Eic11]{Eick11}
+Bettina Eick.
+\newblock Computing nilpotent quotients of associative algebras and algebras
+  satisfying a polynomial identity.
+\newblock {\em Internat. J. Algebra Comput.}, 21(8):1339--1355, 2011.
+
+\bibitem[EK11]{EickKonovalov11}
+B.~Eick and A.~Konovalov.
+\newblock The modular isomorphism problem for the groups of order 512.
+\newblock In {\em Groups {S}t {A}ndrews 2009 in {B}ath. {V}olume 2}, volume 388
+  of {\em London Math. Soc. Lecture Note Ser.}, pages 375--383. Cambridge Univ.
+  Press, Cambridge, 2011.
+
+\bibitem[GLMdR22]{GarciaLucasMargolisDelRio22}
+D.~Garc\'{\i}a-Lucas, L.~Margolis, and \'{A}. del R\'{\i}o.
+\newblock Non-isomorphic 2-groups with isomorphic modular group algebras.
+\newblock {\em J. Reine Angew. Math.}, 783:269--274, 2022.
+
+\bibitem[MS22]{MargolisMoede22}
+L.~Margolis and M.~Stanojkovski.
+\newblock The modular isomorphism problem for small groups -- revisiting
+  {E}ick's algorithm.
+\newblock {\em J. Comp. Alg.}, 1-2:100001, 2022.
+
+\bibitem[RS93]{RoggenkampScott93}
+K.~W. Roggenkamp and L.~L. Scott.
+\newblock Automorphisms and nonabelian cohomology: an algorithm.
+\newblock {\em Linear Algebra Appl.}, 192:355--382, 1993.
+\newblock Computational linear algebra in algebraic and related problems
+  (Essen, 1992).
+
+\bibitem[Wur93]{Wursthorn93}
+M.~Wursthorn.
+\newblock Isomorphisms of modular group algebras: an algorithm and its
+  application to groups of order {$2^6$}.
+\newblock {\em J. Symbolic Comput.}, 15(2):211--227, 1993.
+
+\end{thebibliography}

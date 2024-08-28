@@ -1,0 +1,1 @@
+gap> KuroshAlgebra(2,2,Rationals);^^J... some printout ..^^Jrec( bas := [ [ 1, 0, 0, 0 ], [ 0, 1, 1, 0 ], [ 0, 0, 0, 1 ], [ 0, 1, 0, 0 ] ]^^J    , com := false, dim := 3, fld := Rationals, rnk := 2,^^J  tab := [ [ [ 0, 0, 0 ], [ 0, 0, -1 ], [ 0, 0, 0 ] ],^^J      [ [ 0, 0, 1 ], [ 0, 0, 0 ], [ 0, 0, 0 ] ] ], wds := [ ,, [ 2, 1 ] ],^^J  wgs := [ 1, 1, 2 ] )
