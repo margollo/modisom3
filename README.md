@@ -10,6 +10,10 @@ determine the automorphism group and to test isomorphis of such algebras
 over finite fields and of modular group algebras of finite p-groups, and 
 it contains a nilpotent quotient algorithm for finitely presented associative 
 algebras and a method to determine Kurosh algebras.
+Some of the functions to compute with nilpotent algebras are tailored towards
+application for the Modular Isomorphism Problem.
+Moreover, the package allows to compute various group theoretical properties of groups
+related to the Modular Isomorphism Problem.
 
 
 ## Installation

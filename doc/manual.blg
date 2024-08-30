@@ -5,42 +5,42 @@ The style file: alpha.bst
 Database file #1: modisom.bib
 You've used 27 entries,
             2543 wiz_defined-function locations,
-            760 strings with 8444 characters,
-and the built_in function-call counts, 11485 in all, are:
-= -- 1226
-> -- 434
-< -- 23
-+ -- 150
-- -- 139
-* -- 824
-:= -- 1820
-add.period$ -- 89
+            763 strings with 8478 characters,
+and the built_in function-call counts, 11580 in all, are:
+= -- 1233
+> -- 422
+< -- 21
++ -- 143
+- -- 133
+* -- 849
+:= -- 1822
+add.period$ -- 88
 call.type$ -- 27
-change.case$ -- 158
-chr.to.int$ -- 26
+change.case$ -- 156
+chr.to.int$ -- 27
 cite$ -- 27
-duplicate$ -- 471
-empty$ -- 857
-format.name$ -- 176
-if$ -- 2389
-int.to.chr$ -- 2
+duplicate$ -- 470
+empty$ -- 889
+format.name$ -- 170
+if$ -- 2408
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 140
+missing$ -- 27
+newline$ -- 139
 num.names$ -- 81
-pop$ -- 112
+pop$ -- 111
 preamble$ -- 1
-purify$ -- 185
+purify$ -- 183
 quote$ -- 0
-skip$ -- 395
+skip$ -- 391
 stack$ -- 0
-substring$ -- 838
-swap$ -- 97
-text.length$ -- 23
+substring$ -- 904
+swap$ -- 89
+text.length$ -- 21
 text.prefix$ -- 10
 top$ -- 0
 type$ -- 216
 warning$ -- 0
-while$ -- 127
-width$ -- 31
-write$ -- 366
+while$ -- 126
+width$ -- 30
+write$ -- 365

@@ -6,6 +6,7 @@ Changed:
 - detbins.gi: 
 -- New invariants and new functions for all fields. Also new functions which do not need the order as input. 
 -- Some of the existing functions now give more information, e.g. ConjugacyClassInfo or SandlingInfo
+-- Many of the functions are now documented. This concerns both, new and unchanged functions
 
 - checkbin.gi:  
 -- Corrected mistake in main function as done in ModIsomExt. Basically, just copied the file from ModIsomExt
@@ -16,7 +17,7 @@ Changed:
 
 New files:
 - collect.gi as given in ModIsomExt. Function to efficiently compute with Jennings bases in Loewy series quotients of the augmentation ideal
-- Jennings bound functions which in ModIsomExt are in detbins.gi into new file
+- Jennings bound functions which in ModIsomExt are in detbins.gi into new files jenningsBound.g and jenningsConjecture.g
 - kernelsize.gi: to compute kernel sizes of power maps
 - tabletoalgebrandback.gi: functions which allow to convert hence and forth between elements in the group algebra (or rather the augmentation ideal) and the corresponding table
 - detbinsRT.gi: for the ring-theoretic functions of detbins.gi in ModIsom
@@ -73,5 +74,7 @@ jenningsBounds.g: functions on Jennings bound from ModIsomExt
 
 tabletoalgebrandback.gi: MIPElementTableToAlgebra and MIPElementAlgebraToTable functions to convert elements between group algebra and table
 
+Manual:
+- many of the new functions have been documented as well as the changes in the previous functions. Also some functions which remain unchanged are now documented
 
 

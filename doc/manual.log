@@ -1,4 +1,7 @@
-This is TeX, Version 3.14159265 (TeX Live 2017/Debian) (preloaded format=tex 2023.7.18)  11 FEB 2024 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdftex 2023.7.18)  30 AUG 2024 10:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **manual
 (./manual.tex (../../../doc/gapmacro.tex
 (/usr/share/texlive/texmf-dist/tex/plain/amsfonts/amssym.tex
@@ -7,7 +10,7 @@ This is TeX, Version 3.14159265 (TeX Live 2017/Debian) (preloaded format=tex 202
 \msbfam=\fam9
 \eufmfam=\fam10
 ))
-Running TeX
+Running PDFTeX
 \pagewidth=\dimen16
 \pageheight=\dimen17
 \colwidth=\dimen18
@@ -28,18 +31,19 @@ Running TeX
 \citeout=\write4
 \ans=\write5
 \exampleout=\write6
-\labelin=\read0
-\indexin=\read1
-\tocin=\read2
-\citein=\read3
-\secno=\count26
-\subsecno=\count27
-\exno=\count28
-\indentno=\count29
-\chapnum=\count30
-\ortoks=\toks12
+\labelin=\read1
+\indexin=\read2
+\tocin=\read3
+\citein=\read4
+\secno=\count27
+\subsecno=\count28
+\exno=\count29
+\indentno=\count30
+\chapnum=\count31
+\ortoks=\toks13
 \bibindent=\dimen23
-) (../../../doc/ref/manual.lab) (../VERSION) [1]
+) (../../../doc/ref/manual.lab) (../VERSION) [1{/var/lib/texmf/fonts/map/pdftex
+/updmap/pdftex.map}]
 \makelabel{ModIsom:Contents}{{\setbox 0=\hbox {1}\vrule width 0pt height\ht 0}}
 
 Chapter `Contents' .
@@ -72,51 +76,7 @@ Chapter `The modular isomorphism problem' .
 [12.4]
 \openout6 = `manual.example-4.tst'.
 
- [13.4] [14.4] [15.4] [16.4] [17.4] [18.4]
-Overfull \hbox (24.94179pt too wide) in paragraph at lines 445--451
-\tenrm Denoting by $\tenit D[]\tenr (\tenit G\tenr )$ \tenrm the $\tenit i$\ten
-rm -th mem-ber of the Jen-nings se-ries, this func-tion re-turns \tentt GroupIn
-fo \tenrm for the quo-tients $\tenit D[]\tenr (\tenit G\tenr )\teni =\tenit D[]
-\tenr (\tenit G\tenr )$\tenrm ,|
-
-\hbox(7.5+2.5)x468.0, glue set - 1.0
-.\tenrm D
-.\tenrm e
-.\tenrm n
-.\tenrm o
-.\tenrm t
-.etc.
-
-
-Overfull \hbox (50.63895pt too wide) in paragraph at lines 479--488
-\tenrm If $\tenit p$ \tenrm is odd and $\tenit G[]$ \tenrm is cyclic this re-tu
-rns sev-eral in-vari-ants con-tained in [][GL-dRS22] [][GL-dRS23a]. Namely, $\t
-enit D[]\tenr (\tenit C[]\tenr (\tenit G[]\tenr ))\teni =\tenit D[]\tenr (\teni
-t C[]\tenr (\tenit G[]\tenr ))$|
-
-\hbox(7.5+2.5)x468.0, glue set - 1.0
-.\tenrm I
-.\tenrm f
-.\glue 2.5 plus 1.49998 minus 0.59998
-.\mathon
-.\tenit p
-.etc.
-
-[19.4]
-Overfull \hbox (16.53018pt too wide) in paragraph at lines 520--526
-[]\tenrm [HS06](Section 2.2) and the di-men-sion of the first Hochschild co-ho-
-mol-ogy group which equals $[][] [][]\tenr (\tenit C[]\tenr (\tenit g\tenr )\te
-ni =\tenr ^^H(\tenit C[]\tenr (\tenit g\tenr ))$|
-
-\hbox(7.5+3.96036)x468.0, glue set - 1.0
-.\write4{\bs citation{HS06}}
-.\tenrm [
-.\tenrm H
-.\tenrm S
-.\tenrm 0
-.etc.
-
-) (./nilquo.tex [20.4]
+ [13.4] [14.4] [15.4] [16.4] [17.4] [18.4] [19.4]) (./nilquo.tex [20.4]
 Chapter `Nilpotent Quotients' .
 \openout6 = `manual.example-5.tst'.
 
@@ -138,5 +98,23 @@ Chapter `Index' .
 ## Examples written to manual.example-XX.tst.
 ## Labels have changed, run again. (Or they were multiply defined.)
 ##
- )
-Output written on manual.dvi (26 pages, 76148 bytes).
+ ){/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on manual.pdf (26 pages, 200388 bytes).
+PDF statistics:
+ 467 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+

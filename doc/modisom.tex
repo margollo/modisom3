@@ -20,40 +20,40 @@ available is:
 
 \> BinsByGT( p, n, [L], [false] ) F
 
-If the function is called as `BinsByGT(p, n)', then it returns
-a partition of the list `[1..NumberSmallGroups(p^n)]' into 
+If the function is called as $BinsByGT(p, n)$, then it returns
+a partition of the list $[1\.\. NumberSmallGroups(p$^$n)]$ into 
 sublists so that the groups in the corresponding lists share
 all the group-theoretical invariants, i.e. the modular group algebras of two groups 
-`SmallGroup(p^n, i)' and `SmallGroup(p^n, j)' over the field
+$SmallGroup(p$^$n, i)$ and $SmallGroup(p$^$n, j)$ over the field
 $\F_p$ can not be isomorphic if $i$ and $j$ are in different lists. 
 
-If the function is called as `BinsByGT(p, n, L)', then `L' must be a 
+If the function is called as $BinsByGT(p, n, L)$, then $L$ must be a 
 list of groups of order $p^n$ and the function will return a partition
-of the groups of `L' which share all the group-theoretical invariants.
-Alternatively, `L' can be a list of group Id's of groups of order $p^n$.
+of the groups of $L$ which share all the group-theoretical invariants.
+Alternatively, $L$ can be a list of group Id's of groups of order $p^n$.
 
-If the function is called as `BinsByGT(p, n, L, false)' then `L' must be
-a list of groups of order $p^n$ and `false' disactivates the calculation
+If the function is called as $BinsByGT(p, n, L, false)$ then $L$ must be
+a list of groups of order $p^n$ and $false$ disactivates the calculation
 of the dimensions of the second cohomology groups. This can be 
-switched off as for some type of groups `GAP' can not apply the needed functions
+switched off as for some type of groups $GAP$ can not apply the needed functions
 and since computing the second cohomology groups is arguably the hardest 
 of the invariants to test manually.
 
 
 
-Several variations of `BinsByGT' are available. The first two
+Several variations of $BinsByGT$ are available. The first two
 apply to the case when a list of groups is being studied instead of 
 group Id's.
 
 \> MIPSplitGroupsByGroupTheoreticalInvariants ( L ) F
 
-does the same as `BinsByGT(p,n,L)' but computes the numbers $p$ and
+does the same as $BinsByGT(p,n,L)$ but computes the numbers $p$ and
 $n$ itself. The input variable must be a list of groups of the same
 order. Similarly
 
 \> MIPSplitGroupsByGroupTheoreticalInvariantsNoCohomology(L) F	
 
-computes `BinsByGT(p, n, L, false)'.
+computes $BinsByGT(p, n, L, false)$.
 
 
 Moreover, all the three functions described before have variations
@@ -69,36 +69,35 @@ as for the three previous functions.
 \> MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology(L) F
 
 The group-theoretical invariants used by the function
-`BinsByGT' and its variations are described below. 
-Moreover, `GAP' prints more or less information on the progress 
-inside these functions, if `InfoModIsom' is set to $1$ or $0$,
+$BinsByGT$ and its variations are described below. 
+Moreover, $GAP$ prints more or less information on the progress 
+inside these functions, if $InfoModIsom$ is set to $1$ or $0$,
 respectively. Examples of the use of the functions are included
 below.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The main function to apply the algorithm computing the canonical
 form of nilpotent algebras in the context of the Modular
 Isomorphism Problem is:
 
-\> MIPSplitGroupsByAlgebras( p, n, bin, [f] ) F
+\> MIPSplitGroupsByAlgebras( [p, n], bin, [f] ) F
 
-\> MIPSplitGroupsByAlgebras(bin , [f] ) F
+%\> MIPSplitGroupsByAlgebras(bin , [f] ) F
 
-If `MIPSplitGroupsByAlgebras(p, n, bin, [f])' is called then the algebras
-of groups of order $p^n$ with group Id's contained in `bin' are studied.
-The underlying field is of order $p^f$ or, if `f' is not given, of 
+If $MIPSplitGroupsByAlgebras(p, n, bin, [f])$ is called then the algebras
+of groups of order $p^n$ with group Id's contained in $bin$ are studied.
+The underlying field is of order $p^f$ or, if $f$ is not given, of 
 order $p$. 
 
-If the function is called as `MIPSplitGroupsByAlgebras(bin, [f])' then
-`bin' must be a list of groups of the same prime power order and the function
-studies the group algebras of the groups in `bin' over the field with $p^f$
-elements or, if no `f' is given, of order $p$.
+If the function is called as $MIPSplitGroupsByAlgebras(bin, [f])$ then
+$bin$ must be a list of groups of the same prime power order and the function
+studies the group algebras of the groups in $bin$ over the field with $p^f$
+elements or, if no $f$ is given, of order $p$.
 
-More precisely, in the first case when `bin' is a list of integers,
-for $i \in bin$ let $G_i$ denote `SmallGroup(p^n, i)'.
-In the second case let $G_i$ just runs through the groups contained in `bin'.
+More precisely, in the first case when $bin$ is a list of integers,
+for $i \in bin$ let $G_i$ denote $SmallGroup(p$^$n, i)$.
+In the second case $G_i$ just runs through the groups contained in $bin$.
 Denote by $A_i$ the augmentation ideal of $\F G_i$ where $\F$ is the field
-of order $p^f$ or simply $p$, if `f' is not given.
+of order $p^f$ or simply $p$, if $f$ is not given.
  The function computes and compares the canonical forms of the algebras 
  $A_i / A_i^j$ for every $i \in bin$ and increasing natural number $j$. 
 
@@ -113,21 +112,21 @@ For more evolved calculations one can use the function
 
 \> MIPBinSplit(p, n, k, start, step, L, [f])
 
-Given a list `L' of small group library Id's or a list of groups of order $p^n$ this functions checks
+Given a list $L$ of small group library Id's or a list of groups of order $p^n$ this functions checks
 isomorphism of the associated modular group algebras using canonical forms for the quotients of the
-augmentation ideals $A$ of $\F G$. Here $\F$ is either $\F_p$ or $\F_{p^f}$, if `f' is given.
-The parameter `max' is an integer or `false' that determines the maximal
-quotients $A/A^{max}$ to be checked (if `false' is given as input, then the quotients are enlarged
+augmentation ideals $A$ of $\F G$. Here $\F$ is either $\F_p$ or $\F_{p^f}$, if $f$ is given.
+The parameter $max$ is an integer or $false$ that determines the maximal
+quotients $A/A^{max}$ to be checked (if $false$ is given as input, then the quotients are enlarged
 until non-isomorphic quotients are found or eventually the full augmentation ideal will be checked).
-The parameter `start' specifies which quotients $A/A^{start}$ are precomputed. The parameter
-`step' determines in which steps the quotients are enlarged if necessary during the isomorphism check.
-The output is a record containing three entries: `bins' contains all the groups, for which the non-
-isomorphism of the associated modular group algebras could not be determined; `splits' contains all
+The parameter $start$ specifies which quotients $A/A^{start}$ are precomputed. The parameter
+$step$ determines in which steps the quotients are enlarged if necessary during the isomorphism check.
+The output is a record containing three entries: $bins$ contains all the groups, for which the non-
+isomorphism of the associated modular group algebras could not be determined; $splits$ contains all
 the groups, for which the associated group algebras were determined to be non-isomorphic (and the
-first non-isomorphic quotient); `time' contains the time used for the computation (in milliseconds).
+first non-isomorphic quotient); $time$ contains the time used for the computation (in milliseconds).
 
 For big algebras all of these function can use a lot of time and memory. To have a
-better idea on the progress of the calculations one should set `InfoModIsom' to 1.
+better idea on the progress of the calculations one should set $InfoModIsom$ to 1.
 
 We first show how to study a fixed order:
 
@@ -146,13 +145,13 @@ This shows that the Modular Isomorphism Problem has a positive answer for groups
 of order $64$ for the field $\F_2$. The result means e.g. that the smallest quotients
 (of Loewy layers)
 such that the augmentation ideals $A_1$ and $A_2$ of the groups algebras over $\F_2$ of the
-groups `SmallGroup(64, 156)' and `SmallGroup(64, 158)' are not isomorphic are $A_1/A_1^8$
+groups $SmallGroup(64, 156)$ and $SmallGroup(64, 158)$ are not isomorphic are $A_1/A_1^8$
 and $A_2/A_2^8$. These are $A_1/A_1^5$ and $A_2/A_2^5$ for the groups
-`SmallGroup(64, 20)' and `SmallGroup(64, 22)'. 
+$SmallGroup(64, 20)$ and $SmallGroup(64, 22)$. 
 
 The following shows that the problem also has a positive answer for the group
 algebras of groups of order $64$ over the field $\F_4$. Note that for the groups
-`SmallGroup(64, 20)' and `SmallGroup(64, 22)' one has to consider deeper quotients
+$SmallGroup(64, 20)$ and $SmallGroup(64, 22)$ one has to consider deeper quotients
 in this case.
 
 \beginexample
@@ -214,7 +213,7 @@ rec( bins := [  ],
 
 The program does not finish in a very reasonable time, if we run it over the field $\F_4$, but we
 can still check that it is not enough to factor out only the 5th power of the augmentation ideal
-in this case. One option is to use info level to do this and the other to use `MIPBinsSplit':
+in this case. One option is to use info level to do this and the other to use $MIPBinsSplit$:
 
 \beginexample
 gap> SetInfoLevel(InfoModIsom, 1);
@@ -368,6 +367,7 @@ rec(
 
 \endexample
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \Section{Kernel size}
 
 An idea to study the Modular Isomorphism Problem is to define maps on certain
@@ -378,9 +378,9 @@ be done in the package using the function
 
 \> KernelSizePowerMap(T, n, m, l, [f]) F
 
-where `T' is a table as returned by `ModIsomTable' and `n, m, l' are as 
+where $T$ is a table as returned by $ModIsomTable$ and $n, m, l$ are as 
 just described and the calculation is performed over the field $\F_{p^f}$.
-If `f' is not given, then it is set to $1$.
+If $f$ is not given, then it is set to $1$.
 We can check for instance the first calculation in \cite{HS06}(Section 4.1).
 
 \beginexample
@@ -408,18 +408,19 @@ gap> KernelSizePowerMap(TH, 1, 1, 2);
 7
 \endexample
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \Section{The group theoretical invariants}
 
-We document here which group-theoretical invariants are used in `BinsByGT' and 
+We document here which group-theoretical invariants are used in $BinsByGT$ and 
 similar functions.
 
 \> GroupInfo(G) F
 
 This is an auxiliary function used in other group-theoretical invariants. 
-If `IdGroup' is available in `GAP' for the order of $G$ it returns `IdGroup(G)'.
-Otherwise it returns `[Size(G), AbelianInvariants(G)]'. 
+If $IdGroup$ is available in $GAP$ for the order of $G$ it returns $IdGroup(G)$.
+Otherwise it returns $[Size(G), AbelianInvariants(G)]$. 
 
-We now describe the invariants in the order they appear in `BinsByGT'. 
+We now describe the invariants in the order they appear in $BinsByGT$. 
 First the isomorphism types of $G/G'$ and $Z(G)$, the abelianization and the center
 of $G$ are used. These are very classical invariants \cite{San85}(Theorems 6.12, 6.7).
 We next list the other functions which are applied, which are all small functions written 
@@ -434,19 +435,19 @@ calculates the isomorphism types of $Z(G) \cap G'$ and $Z(G)/ Z(G) \cap G'$
 
 calculates several invariants coming from the small groups algebra which was first
 used to study the Modular Isomorphism Problem in \cite{San89}. Namely, for $\gamma_i(G)$
-the $i$-th term of the lower central series of $G$ it returns the `GroupInfo' for
-$G/\gamma_2(G)^p\gamma_3(G)$ \cite{San89}, the `GroupInfo' of $G/\gamma_2(G)^p\gamma_4(G)$,
+the $i$-th term of the lower central series of $G$ it returns the $GroupInfo$ for
+$G/\gamma_2(G)^p\gamma_3(G)$ \cite{San89}, the $GroupInfo$ of $G/\gamma_2(G)^p\gamma_4(G)$,
 if $G$ is $2$-generated (mentioned in \cite{Bag99}, proved in \cite{MM22}) and if the
 derived subgroup of $G$ is elementary abelian and the Jennings series of $G$ has length
-at most $2p$, it returns `GroupInfo' for the Frattini subgroup of $G$ \cite{HS06}(p.16).
-This function is not applied in `BinsByGTAllFields' and its variations.
+at most $2p$, it returns $GroupInfo$ for the Frattini subgroup of $G$ \cite{HS06}(p.16).
+This function is not applied in $BinsByGTAllFields$ and its variations.
 
 \> JenningsInfo(G) F
 
 Denoting by $D_i(G)$ the $i$-th member of the Jennings series, this function returns   
-`GroupInfo' for the quotients $D_i(G)/D_{i+1}(G)$, $D_i(G)/D_{i+2}(G)$, $D_i(G)D_{2i+1}(G)$
+$GroupInfo$ for the different quotients $D_i(G)/D_{i+1}(G)$, $D_i(G)/D_{i+2}(G)$, $D_i(G)D_{2i+1}(G)$
 for meaningful values of $i$ (results \cite{Jen41} \cite{PS72} \cite{RS83}) and if $p$ is odd also for
-$G/D_4(G)$ \cite{Her07}. For `BinsByGTAllFields' and its variations only the quotients
+$G/D_4(G)$ \cite{Her07}. For $BinsByGTAllFields$ and its variations only the quotients
 $D_i(G)/D_{i+1}(G)$ are computed.
 
 \> JenningsDerivedInfo(G) F
@@ -456,13 +457,13 @@ computes $D_i(G')/D_{i+1}(G')$ for all $i$ \cite{San85}(Lemma 6.26).
 \> BaginskiInfo(G) F
 
 For $N = C_G(G'/\Phi(G'))$, where $\Phi(G)$ denotes the Frattini subgroup, if $G/N$ is
-cyclic, it returns the `GroupInfo' for $N/\Phi(G')$ and $G/\Phi(N)$ \cite{Bag99}.
-This function is not applied in `BinsByGTAllFields' and its variations.
+cyclic, it returns the $GroupInfo$ for $N/\Phi(G')$ and $G/\Phi(N)$ \cite{Bag99}.
+This function is not applied in $BinsByGTAllFields$ and its variations.
 
 \> BaginskiCarantiInfo(G) F
 
 returns the nilpotency class of $G/\Phi(G')$ \cite{BC88}(Proposition 2.1). 
-This function is not applied in `BinsByGTAllFields' and its variations.
+This function is not applied in $BinsByGTAllFields$ and its variations.
 
 \> NilpotencyClassInfo(G) F
 
@@ -473,22 +474,22 @@ or the derived subgroup is cyclic \cite{BK07}.
 
 If $p$ is odd, $G$ is $2$-generated, the nilpotency class of $G$ is $3$ and $\gamma_3(G)$ 
 has exponent $p$, it returns the isomorphism types of $\gamma_2(G)$ and $\gamma_3(G)$
-\cite{MS22}(Theorem 4.1). This function is not applied in `BinsByGTAllFields' and its variations.
+\cite{MS22}(Theorem 4.1). This function is not applied in $BinsByGTAllFields$ and its variations.
 
 \> CyclicDerivedInfo(G) F
 
 If $p$ is odd and $G'$ is cyclic this returns several invariants contained in \cite{GLdRS22} \cite{GLdR23}.
-Namely, $D_i(C_G(G'))/D_{i+1}(C_G(G'))$ for all $i$, the exponent of $C_G(G')$, the isomorphism
-type of $C_G(G')/G'$ and the `GroupInfo' for $G/R_1(\gamma_3(G))$ and $G/R_3(C_G(G'))$.
+Namely, the quotients $D_i(C_G(G'))/D_{i+1}(C_G(G'))$ for all $i$, the exponent of $C_G(G')$, the isomorphism
+type of $C_G(G')/G'$ and the $GroupInfo$ for $G/R_1(\gamma_3(G))$ and $G/R_3(C_G(G'))$.
 Here $R_i(G)$ denotes the subgroup of $G$ generated by the $p^i$-th powers in $G$.
-If $G$ is additionally $2$-generated, it also computes the `GroupInfo' for $C_G(G')$ and the
+If $G$ is additionally $2$-generated, it also computes the $GroupInfo$ for $C_G(G')$ and the
 type invariants of $G$ (cf. \cite{GLdRS22} for the definition). 
-For `BinsByGTAllFields' and its variations, the `GroupInfo' for  $G/R_1(\gamma_3(G))$
+For $BinsByGTAllFields$ and its variations, the $GroupInfo$ for  $G/R_1(\gamma_3(G))$
  and $G/R_3(C_G(G'))$ is not computed.
  
 \> MaximalAbelianDirectFactor(G) F
 
-computes the maximal abelian direct factor of $G$ \cite{GL24}. In ``BinsByGTAllFields'' and
+computes the maximal abelian direct factor of $G$ \cite{GL24}. In $BinsByGTAllFields$ and
 its variations it computes the maximal elementary abelian direct factor instead \cite{MSS23}.
 
 \> NormalSubgroupsInfo(G) F
@@ -507,7 +508,7 @@ $3$-generated and a certain condition holds on the commutator map modulo the sec
 \cite{MS22}(Theorem 3.5), $G$ is a $2$-group with cyclic center and dihedral central
 quotient \cite{MSS23}, $G$ is a $2$-group of nilpotency class $2$ with cyclic center \cite{GLM24},
 $p$ is odd, $G'$ is cyclic and $R_2(G/G')$ is cyclic \cite{GLdR23}(Proposition 3.7). 
-For `BinsByGTAllFields' and its variations it only checks, if $G$ is a $2$-group of
+For $BinsByGTAllFields$ and its variations it only checks, if $G$ is a $2$-group of
 maximal class, $[G:Z(G)] = p^2$ or $G$ is a $2$-group with cyclic center and dihedral central
 quotient.
 
@@ -521,12 +522,12 @@ Hochschild cohomology group $HH^2(FG) = H^2(FG, FG)$.
 Computes the number of conjugacy classes which are $p^i$-th powers, for all $i$ (Kuelshammer) and
 the number of conjugacy classes of $p^i$-th powers which come from conjugacy classes of the same order
  (Parmenter-Polcino Milies) \cite{HS06}(Section 2.2) and the dimension of the first Hochschild 
- cohomology group which equals $\sum_{g^G} \log_p(C_G(g)/\Phi(C_G(g))$ where the sum runs over
+ cohomology group which equals the number $\sum_{g^G} \log_p(C_G(g)/\Phi(C_G(g))$ where the sum runs over
  all the conjugacy classes of $G$ \cite{HS06}(Section 2.6). 
  
 \> SubgroupsInfo(G) F
 
-Computes the number of conjugacy classes of maximal elementary abelian subgroups of rank 1,2...
+Computes the number of conjugacy classes of maximal elementary abelian subgroups of rank 1,2,...
 The return is a list of integers which contains this number for all ranks until the maximal possible.
 This is based on results of Quillen \cite{HS06}(Section 2.5).
 

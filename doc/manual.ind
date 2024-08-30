@@ -16,7 +16,7 @@
   `CanonicalFormOfRad', 10
   `CanonicalFormOfTable', 10
   Canonical forms, \indexit{10}
-  `CenterDerivedInfo', 19
+  `CenterDerivedInfo', 18
   `CheckAssociativity', 6
   `CheckCommutativity', 6
   `CheckConsistency', 6
@@ -37,7 +37,7 @@
   `GetEntryTable', 5
   `GroupInfo', 18
 \letter I
-  `IsCoveredByTheory', 20
+  `IsCoveredByTheory', 19
 \letter J
   `JenningsDerivedInfo', 19
   `JenningsInfo', 19
@@ -66,7 +66,7 @@
   Nilpotent tables, \indexit{5}
   `NormalSubgroupsInfo', 19
 \letter S
-  `SandlingInfo', 19
+  `SandlingInfo', 18
   `SubgroupsInfo', 20
 \letter T
   `TableOfRadQuotient', 7

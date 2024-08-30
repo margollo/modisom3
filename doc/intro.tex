@@ -72,8 +72,8 @@ isomorphism problem.
 
 {\bf The Modular Isomorphism Problem}
 
-The modular isomorphism problem asks whether $\F_p G \cong \F_p H$ implies
-that $G \cong H$ for two $p$-groups $G$ and $H$ and $\F$ the field with $p$
+The modular isomorphism problem asks whether an isomorphism of algebras $\F_p G \cong \F_p H$ implies
+an isomorphism of groups $G \cong H$ for two $p$-groups $G$ and $H$ and $\F_p$ the field with $p$
 elements. This problem was open for a long time until first counterexamples
 for the prime $p=2$ were found in \cite{GLMdR22}. It remains open for odd
 primes and many other interesting classes of groups.
@@ -82,7 +82,7 @@ Computational approaches have been used to investigate the modular isomorphism
 problem. Based on an algorithm by Roggenkamp and Scott \cite{RS93}, Wursthorn
 \cite{Wur93} described an algorithm for checking the modular isomorphism
 problem; that is, he described an algorithm for checking whether two modular
-group algebras $\F G$ and $\F H$ are isomorphic, where $G$ and $H$ are finite
+group algebras $\F_p G$ and $\F_p H$ are isomorphic, where $G$ and $H$ are finite
 $p$-groups. This algorithm has been
 implemented in C by Wursthorn and has been applied to the groups of
 order dividing $2^7$ without finding a counterexample, see \cite{BKRW99}.
@@ -96,7 +96,7 @@ on the fact that the Jacobson radical $J(FG)$ is nilpotent if $FG$ is a
 modular group algebra for $G$ a finite $p$-group and $FG$ is isomorphic to $FH$ if and only if the radicals
 $J(FG)$ and $J(FH)$ are isomorphic. Hence the automorphism group and canonical form 
 algorithm of this package apply and can be used to solve the isomorphism
-problem for modular group algebras of finite $p$-groups.
+problem for modular group algebras of finite $p$-groups. Note that in this setting the Jacobson radical of the group algebra $FG$ equals its augmentation ideal.
 
 The methods of this package have been used to study the modular isomorphism
 problem for the groups of order dividing $3^6$ and $2^8$ (\cite{Eic07}) and

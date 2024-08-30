@@ -1,4 +1,4 @@
-\begin{thebibliography}{GLdRS23b}
+\begin{thebibliography}{GLMdR22}
 
 \bibitem[Bag92]{Bag92}
 C.~Bagi\'{n}ski.
@@ -17,7 +17,7 @@ C.~Bagi\'{n}ski and A.~Caranti.
 \newblock {\em Canad. J. Math.}, 40(6):1422--1435, 1988.
 
 \bibitem[BdR21]{BdR21}
-O.~Broche and \'{A}. del R\'{\i}o.
+O.~Broche and \'{A}. del R\'{i}o.
 \newblock The modular isomorphism problem for two generated groups of class
   two.
 \newblock {\em Indian J. Pure Appl. Math.}, 52(3):721--728, 2021.
@@ -31,7 +31,7 @@ C.~Bagi\'{n}ski and A.~Konovalov.
   Cambridge, 2007.
 
 \bibitem[BKRW99]{BKRW99}
-Frauke~M. Bleher, Wolfgang Kimmerle, Klaus~W. Roggenkamp, and Martin Wursthorn.
+F.~Bleher, W.~Kimmerle, K.~W. Roggenkamp, and M.~Wursthorn.
 \newblock Computational aspects of the isomorphism problem.
 \newblock In {\em Algorithmic algebra and number theory (Heidelberg, 1997)},
   pages 313--329. Springer, Berlin, 1999.
@@ -45,56 +45,50 @@ V.~Drensky.
   Providence, RI, 1989.
 
 \bibitem[Eic08]{Eic07}
-Bettina Eick.
+B.~Eick.
 \newblock Computing automorphism groups and testing isomorphisms for modular
   group algebras.
 \newblock {\em J. Algebra}, 320(11):3895--3910, 2008.
 
 \bibitem[Eic11]{Eic11}
-Bettina Eick.
+B.~Eick.
 \newblock Computing nilpotent quotients of associative algebras and algebras
   satisfying a polynomial identity.
 \newblock {\em Internat. J. Algebra Comput.}, 21(8):1339--1355, 2011.
 
 \bibitem[EK11]{EKo11}
-Bettina Eick and Alexander Konovalov.
+B.~Eick and A.~Konovalov.
 \newblock The modular isomorphism problem for the groups of order 512.
 \newblock In {\em Groups {S}t {A}ndrews 2009 in {B}ath. {V}olume 2}, volume 388
   of {\em London Math. Soc. Lecture Note Ser.}, pages 375--383. Cambridge Univ.
   Press, Cambridge, 2011.
 
 \bibitem[GL24]{GL24}
-D.~Garc\'{\i}a-Lucas.
+D.~Garc\'{i}a-Lucas.
 \newblock The modular isomorphism problem and abelian direct factors.
-\newblock {\em Med. J. of Math.}, 21, article number 18, 2024
+\newblock {\em Meditt. J. of Math.}, 21:Article no. 18, 2024.
 
-\bibitem[GLM24]{GLM24}
-D.~Garc\'{\i}a-Lucas and L.~Margolis
-\newblock On the modular isomorphism problem for groups of nilpotency class 2 with cyclic center
-\newblock {\em Forum Math.}, 2024
-
-\bibitem[GLdRS22]{GLdRS22}
-D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
-\newblock On group invariants determined by modular group algebras: Even versus
-  odd characteristic.
-\newblock {\em Alg. Rep. Th.}, pages 1--25, 2022.
-\newblock https://doi.org/10.1007/s10468-022-10182-x.
-
-\bibitem[GLdRS23a]{GLdR23}
-D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
+\bibitem[GLdR24]{GLdR23}
+D.~Garc\'{i}a-Lucas and \'{A}. del R\'{i}o.
 \newblock On the modular isomorphism problem for 2-generated groups with cyclic
   derived subgroup.
-\newblock arXiv:2310.02627, 2023.
+\newblock {\em J. Alg. App.}, 2024.
+\newblock https://doi.org/10.1142/S0219498825503311.
 
-\bibitem[GLdRS23b]{GLM23}
-D.~Garc\'{\i}a-Lucas, \'{A}. del R\'{\i}o, and M.~Stanojkovski.
+\bibitem[GLdRS23]{GLdRS22}
+Diego Garc\'{i}a-Lucas, \'{A}ngel del R\'{i}o, and Mima Stanojkovski.
+\newblock On group invariants determined by modular group algebras: even versus
+  odd characteristic.
+\newblock {\em Algebr. Represent. Theory}, 26(6):2683--2707, 2023.
+
+\bibitem[GLM24]{GLM24}
+D.~Garc\'{i}a-Lucas and L.~Margolis.
 \newblock On the modular isomorphism problem for groups of nilpotency class 2
   with cyclic center.
-\newblock {\em Forum Mat.}, pages 1--19, 2023.
-\newblock to appear, arXiv:2306.06957.
+\newblock {\em Forum Math.}, 36(5):1321--1340, 2024.
 
 \bibitem[GLMdR22]{GLMdR22}
-D.~Garc\'{\i}a-Lucas, L.~Margolis, and \'{A}. del R\'{\i}o.
+D.~Garc\'{i}a-Lucas, L.~Margolis, and \'{A}. del R\'{i}o.
 \newblock Non-isomorphic 2-groups with isomorphic modular group algebras.
 \newblock {\em J. Reine Angew. Math.}, 783:269--274, 2022.
 
@@ -129,13 +123,13 @@ L.~Margolis and M.~Stanojkovski.
 \newblock {\em J. Group Theory}, 25(1):163--206, 2022.
 
 \bibitem[MSS23]{MSS23}
-Leo Margolis, Taro Sakurai, and Mima Stanojkovski.
+L.~Margolis, T.~Sakurai, and M.~Stanojkovski.
 \newblock Abelian invariants and a reduction theorem for the modular
   isomorphism problem.
 \newblock {\em J. Algebra}, 636:1--27, 2023.
 
 \bibitem[PS72]{PS72}
-Inder Bir~S. Passi and Sudarshan~K. Sehgal.
+I.~B.~S. Passi and S.~K. Sehgal.
 \newblock Isomorphism of modular group algebras.
 \newblock {\em Math. Z.}, 129:65--73, 1972.
 
@@ -162,7 +156,7 @@ R.~Sandling.
 \newblock {\em Arch. Math. (Basel)}, 52(1):22--27, 1989.
 
 \bibitem[Wur93]{Wur93}
-Martin Wursthorn.
+M.~Wursthorn.
 \newblock Isomorphisms of modular group algebras: an algorithm and its
   application to groups of order {$2\sp 6$}.
 \newblock {\em J. Symbolic Comput.}, 15(2):211--227, 1993.

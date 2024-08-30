@@ -35,8 +35,7 @@
 \makelabel{ModIsom:MIPSplitGroupsByGroupTheoreticalInvariantsAllFields}{4.1.5}
 \makelabel{ModIsom:MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology}{4.1.6}
 \makelabel{ModIsom:MIPSplitGroupsByAlgebras}{4.1.7}
-\makelabel{ModIsom:MIPSplitGroupsByAlgebras}{4.1.8}
-\makelabel{ModIsom:MIPBinSplit}{4.1.9}
+\makelabel{ModIsom:MIPBinSplit}{4.1.8}
 \makelabel{ModIsom:Kernel size}{4.2}
 \makelabel{ModIsom:KernelSizePowerMap}{4.2.1}
 \makelabel{ModIsom:The group theoretical invariants}{4.3}
@@ -79,10 +78,9 @@
 \setcitlab {Eic11}{Eic11}
 \setcitlab {EKo11}{EK11}
 \setcitlab {GL24}{GL24}
+\setcitlab {GLdR23}{GLdR24}
+\setcitlab {GLdRS22}{GLdRS23}
 \setcitlab {GLM24}{GLM24}
-\setcitlab {GLdRS22}{GLdRS22}
-\setcitlab {GLdR23}{GLdRS23a}
-\setcitlab {GLM23}{GLdRS23b}
 \setcitlab {GLMdR22}{GLMdR22}
 \setcitlab {Her07}{Her07}
 \setcitlab {HS06}{HS06}

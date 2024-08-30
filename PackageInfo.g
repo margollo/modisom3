@@ -26,6 +26,22 @@ Persons := [
     Place         := "Braunschweig",
     Institution   := "TU Braunschweig"
   ),
+
+  rec( 
+    LastName      := "Garcia-Lucas",
+    FirstNames    := "Diego",
+    IsAuthor      := true,
+    IsMaintainer  := false,
+    Email         := "t.moede@tu-braunschweig.de",
+    WWWHome       := "https://www.tu-braunschweig.de/iaa/personal/moede",
+    PostalAddress := Concatenation( [
+                       "Institute of Analysis and Algebra\n",
+                       "TU Braunschweig\n",
+                       "Universitaetsplatz 2, 38106 Braunschweig\n",
+                       "Spain" ] ),
+    Place         := "Braunschweig",
+    Institution   := "TU Braunschweig"
+  )
   rec(
     LastName      := "Konovalov",
     FirstNames    := "Olexandr",
@@ -40,7 +56,39 @@ Persons := [
                      "St Andrews, Fife, KY16 9SX, Scotland" ] ),
     Place         := "St Andrews",
     Institution   := "University of St Andrews"
-  ) ],
+  ),
+  rec( 
+    LastName      := "Margolis",
+    FirstNames    := "Leo",
+    IsAuthor      := true,
+    IsMaintainer  := true,
+    Email         := "leo.margolisk@uam.es",
+    WWWHome       := "http://www.margollo.github.io",
+    PostalAddress := Concatenation(
+               "Departamento de Matematicas\n",
+               "Universidad Autonoma de Madrid\n",
+               "Campus Cantoblanco\n",
+               "28049 Madrid\n",
+               "Spain" ),
+    Place         := "Madrid",
+    Institution   := "Universidad Autonoma de Madrid"
+  ),
+  rec( 
+    LastName      := "Moede",
+    FirstNames    := "Tobias",
+    IsAuthor      := true,
+    IsMaintainer  := false,
+    Email         := "t.moede@tu-braunschweig.de",
+    WWWHome       := "https://www.tu-braunschweig.de/iaa/personal/moede",
+    PostalAddress := Concatenation( [
+                       "Institute of Analysis and Algebra\n",
+                       "TU Braunschweig\n",
+                       "Universitaetsplatz 2, 38106 Braunschweig\n",
+                       "Germany" ] ),
+    Place         := "Braunschweig",
+    Institution   := "TU Braunschweig"
+  )
+ ],
 
 Status := "accepted",
 CommunicatedBy := "Olexandr Konovalov (St Andrews)",

@@ -31,14 +31,13 @@
 \indexentry {MIPSplitGroupsByGroupTheoreticalInvariantsAllFields@`MIPSplitGroupsByGroupTheoreticalInvariantsAllFields'}{13}
 \indexentry {MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology@`MIPSplitGroupsByGroupTheoreticalInvariantsAllFieldsNoCohomology'}{13}
 \indexentry {MIPSplitGroupsByAlgebras@`MIPSplitGroupsByAlgebras'}{13}
-\indexentry {MIPSplitGroupsByAlgebras@`MIPSplitGroupsByAlgebras'}{13}
 \indexentry {MIPBinSplit@`MIPBinSplit'}{13}
 \indexentry {Kernel size@Kernel size|indexit}{18}
 \indexentry {KernelSizePowerMap@`KernelSizePowerMap'}{18}
 \indexentry {The group theoretical invariants@The group theoretical invariants|indexit}{18}
 \indexentry {GroupInfo@`GroupInfo'}{18}
-\indexentry {CenterDerivedInfo@`CenterDerivedInfo'}{19}
-\indexentry {SandlingInfo@`SandlingInfo'}{19}
+\indexentry {CenterDerivedInfo@`CenterDerivedInfo'}{18}
+\indexentry {SandlingInfo@`SandlingInfo'}{18}
 \indexentry {JenningsInfo@`JenningsInfo'}{19}
 \indexentry {JenningsDerivedInfo@`JenningsDerivedInfo'}{19}
 \indexentry {BaginskiInfo@`BaginskiInfo'}{19}
@@ -48,7 +47,7 @@
 \indexentry {CyclicDerivedInfo@`CyclicDerivedInfo'}{19}
 \indexentry {MaximalAbelianDirectFactor@`MaximalAbelianDirectFactor'}{19}
 \indexentry {NormalSubgroupsInfo@`NormalSubgroupsInfo'}{19}
-\indexentry {IsCoveredByTheory@`IsCoveredByTheory'}{20}
+\indexentry {IsCoveredByTheory@`IsCoveredByTheory'}{19}
 \indexentry {DimensionTwoCohomology@`DimensionTwoCohomology'}{20}
 \indexentry {ConjugacyClassInfo@`ConjugacyClassInfo'}{20}
 \indexentry {SubgroupsInfo@`SubgroupsInfo'}{20}
