@@ -26,22 +26,6 @@ Persons := [
     Place         := "Braunschweig",
     Institution   := "TU Braunschweig"
   ),
-
-  rec( 
-    LastName      := "Garcia-Lucas",
-    FirstNames    := "Diego",
-    IsAuthor      := true,
-    IsMaintainer  := false,
-    Email         := "t.moede@tu-braunschweig.de",
-    WWWHome       := "https://www.tu-braunschweig.de/iaa/personal/moede",
-    PostalAddress := Concatenation( [
-                       "Institute of Analysis and Algebra\n",
-                       "TU Braunschweig\n",
-                       "Universitaetsplatz 2, 38106 Braunschweig\n",
-                       "Spain" ] ),
-    Place         := "Braunschweig",
-    Institution   := "TU Braunschweig"
-  )
   rec(
     LastName      := "Konovalov",
     FirstNames    := "Olexandr",
