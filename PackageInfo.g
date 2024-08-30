@@ -46,7 +46,7 @@ Persons := [
     FirstNames    := "Leo",
     IsAuthor      := true,
     IsMaintainer  := true,
-    Email         := "leo.margolisk@uam.es",
+    Email         := "leo.margolis@uam.es",
     WWWHome       := "http://www.margollo.github.io",
     PostalAddress := Concatenation(
                "Departamento de Matematicas\n",
