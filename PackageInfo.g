@@ -26,6 +26,23 @@ Persons := [
     Place         := "Braunschweig",
     Institution   := "TU Braunschweig"
   ),
+
+  rec( 
+    LastName      := "Garcia-Lucas",
+    FirstNames    := "Diego",
+    IsAuthor      := true,
+    IsMaintainer  := false,
+    Email         := "diego.garcial@um.es",
+    PostalAddress := Concatenation(
+               "Departamento de Matematicas\n",
+               "Facultad de Matematicas\n",
+               "Universidad de Murcia\n",
+               "ES-30100 Murcia\n",
+               "Spain" ),
+    Place         := "Murcia",
+    Institution   := "Universidad de Murcia"
+  ),
+
   rec(
     LastName      := "Konovalov",
     FirstNames    := "Olexandr",
